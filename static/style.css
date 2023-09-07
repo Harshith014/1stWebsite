@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar {
+    background-color: #000000de;
+    padding: 16px 30px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+    padding: 7px 18px;
+    color: white;
+    font-size: 1.2rem;
+}
+li {
+    list-style: none;
+}
+#intoSection{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    background: url("/static/bg.jpg") center/cover no-repeat;
+    padding-bottom: 100px;
+}
+#intoSection div.small{
+    font-size: 1.5rem;
+}
+#missionsection{
+    width: 60%;
+    margin: auto;
+    height: 300px;
+}
+#logo {
+    margin: 0px 10px;
+    display: flex;
+}
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 100px;
+    margin-right: 20px;
+}
+.card-img img {
+    height: inherit;
+}
+#logo img {
+    filter: invert(1);
+    height: 60px;
+    border-radius: 38px;
+}
+#missionsection h2{
+    font-size: 2rem;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+#missionsection div.card {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 3px 11px;
+    margin: 6px 15px;
+    width: 273px;
+    height: 200px;
+    border-radius: 5px;
+    background: mistyrose;
+}
+#missionsection h3 {
+    justify-content: center;
+    display: flex;
+    margin: 5px auto;
+}
+#sponsorssection h2 {
+    padding: 30px;
+}
+#sponsorssection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 37px;
+    font-size: 2rem;
+    flex-direction: column;
+    height: 300px;
+    margin-top: -21px;
+    background-color: #feacac;
+}
+#footer {
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+.slogo img{
+    height: 100px;
+    padding: 0px 65px ;
+ 
+}
+#sponsors {
+    display: flex;
+    justify-content: center;
+}

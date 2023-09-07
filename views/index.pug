@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src='/static/d1.jpg')
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    
+    section#intoSection
+        div Welcome to death by dance 
+        div.small Franchise of hell 
+    section#missionsection 
+        h2 Our Mission 
+        div.card 
+            h3 Play with fire
+            div.card-box 
+                div.card-img 
+                    img(src='/static/d11.jpg')
+                div.card-content
+                    p This is the most hottest tempo ever.!
+        div.card 
+            h3 Cold as Ice
+            div.card-box 
+                div.card-img 
+                    img(src='/static/d11.jpg')
+                div.card-content
+                    p This is the most coolest tempo ever.!
+        div.card 
+            h3 Shine as star
+            div.card-box 
+                div.card-img 
+                    img(src='/static/d11.jpg')
+                div.card-content
+                    p This is the most shining tempo ever.!
+    section#sponsorssection 
+        h2 Our Sponsors 
+        div#sponsors
+            div.slogo
+                img(src="/static/logo-a.jpg", alt="Apple logo")
+            div.slogo 
+                img(src="/static/logo-az.jpg", alt="Azzure logo")
+            div.slogo 
+                img(src="/static/logo-g.jpg", alt="Google logo")
+            div.slogo 
+                img(src="/static/logo-s.jpg", alt="Skype logo")
+
+    footer#footer 
+        | Copyrightsfree © HellsDanceFranchise | All rights reserved
+            
+    script
+      include ../static/index.js
